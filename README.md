@@ -78,13 +78,13 @@ python test.py --data data/visdrone.yaml --img 640 --batch 32 --conf 0.001 --iou
 ​	视频上
 
 ```python
-python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source yourvideo.mp4
+python detect.py --weights yolov7-tiny-best.pt --conf 0.25 --img-size 640 --source yourvideo.mp4
 ```
 
 ​	图像上
 
 ```python
-python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source inference/images/horses.jpg
+python detect.py --weights yolov7-tiny-best.pt --conf 0.25 --img-size 640 --source inference/images/horses.jpg
 ```
 
 ## Reference
